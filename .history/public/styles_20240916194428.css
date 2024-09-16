@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.nav ul {
+  background-color: teal !important;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  display: inline !important;
+}
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 30px;
+  display: inline-block;
+}
+.nav ul li a:hover {
+  color: antiquewhite !important;
+  background-color: skyblue;
+  border-radius: 30px;
+  transition: 1s;
+}
+header {
+  background-color: coral;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0.5em 0;
+}
+
+.book-form,
+.book-list,
+.edit-book {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newClas {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.authorr span {
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: cursive;
+}
+.authorr i {
+  font-size: 9px;
+}
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: coral;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+img {
+  border-radius: 4px;
+}
+
+span {
+  color: darkolivegreen;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #ddd;
+}
+footer {
+  text-align: center;
+}
